@@ -77,11 +77,6 @@ export default function App() {
             <Route path="/results"   element={<Results />}      />
             <Route path="/profile"   element={<AvatarUpload />} />
           </Route>
-          {/* <Route>
-            <Route path="/dashboard" element={<Dashboard />}    />
-            <Route path="/results"   element={<Results />}      />
-            <Route path="/profile"   element={<AvatarUpload />} />
-          </Route> */}
 
           {/* ── Admin-only routes ──────────────────────────────────────────
               AdminRoute checks role === "admin".
@@ -90,9 +85,6 @@ export default function App() {
           <Route element={<AdminRoute />}>
             <Route path="/admin" element={<AdminPanel />} />
           </Route>
-          {/* <Route>
-            <Route path="/admin" element={<AdminPanel />} />
-          </Route> */}
 
           {/* ── Catch-all — redirect unknown paths to home ─────────────── */}
           <Route path="*" element={<Navigate to="/" replace />} />
