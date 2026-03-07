@@ -1,0 +1,2 @@
+Container_ID,Declaration_Date (YYYY-MM-DD),Declaration_Time,Trade_Regime (Import / Export / Transit),Origin_Country,Destination_Country,Destination_Port,HS_Code,Importer_ID,Exporter_ID,Declared_Value,Declared_Weight,Measured_Weight,Shipping_Line,Dwell_Time_Hours
+189645,2026-03-07,11:52,Import,India,China,Port of Jabel Ali,8471.30,67854,678910,7,13,14,Maersk,18

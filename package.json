@@ -1,0 +1,18 @@
+{
+  "name": "smartcontainer-risk-engine",
+  "version": "1.0.0",
+  "description": "SmartContainer Risk Engine - Full stack hackathon project",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -k -n \"backend,frontend,ml\" -c \"blue,green,magenta\" \"npm run dev:backend\" \"npm run dev:frontend\" \"npm run dev:ml\"",
+    "dev:backend": "cd Backend && npm run dev",
+    "dev:frontend": "cd Frontend && npm run dev",
+    "dev:ml": "cd SmartContainerRiskEngine && python -m uvicorn main:app --reload --host 0.0.0.0 --port 8001",
+    "install:all": "npm install && cd Backend && npm install && cd ../Frontend && npm install",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

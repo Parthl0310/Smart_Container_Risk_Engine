@@ -1,0 +1,2 @@
+Container_ID,Declaration_Date (YYYY-MM-DD),Declaration_Time,Trade_Regime (Import / Export / Transit),Origin_Country,Destination_Country,Destination_Port,HS_Code,Importer_ID,Exporter_ID,Declared_Value,Declared_Weight,Measured_Weight,Shipping_Line,Dwell_Time_Hours
+C1001,2026-03-06,23:00:00,Import,China,India,Nhava Sheva,8542,1,2,60000,1000,1200,MSC,90

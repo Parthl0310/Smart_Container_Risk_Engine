@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pandas
+langchain
+langchain-google-genai
+langgraph
+scikit-learn
+python-multipart
+xgboost
